@@ -20,7 +20,8 @@ style.innerHTML = `
 document.head.appendChild(style);
 
 // Now you can use these utility classes in your HTML!
-document.querySelector(".btn").addEventListener("click", () => {
+const btn = document.querySelector(".btn");
+btn.addEventListener("click", () => {
     console.log("clicked");
     
 })
